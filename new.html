@@ -15,7 +15,7 @@
 </body>
 <script>
     /*
-    Windows PowerShell
+Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
 
 Try the new cross-platform PowerShell https://aka.ms/pscore6
@@ -51,7 +51,6 @@ On branch main
 
 No commits yet
 
-Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
         new file:   new.html
 
@@ -62,11 +61,34 @@ PS C:\Users\Jenny\Desktop\testing-repo> git commit -m "first commit"
 PS C:\Users\Jenny\Desktop\testing-repo> git log --oneline
 383396c (HEAD -> main) first commit
 PS C:\Users\Jenny\Desktop\testing-repo> git log
-commit 383396c11b4b089bc10170dea3d5b01d0fe68694 (HEAD -> main)
-Author: GoldenDev1002 <jenzielol1002@gmail.com>
 Date:   Wed Oct 19 14:09:29 2022 +0100
 
     first commit
-PS C:\Users\Jenny\Desktop\testing-repo>*/
+PS C:\Users\Jenny\Desktop\testing-repo> git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\Jenny\Desktop\testing-repo> git status
+On branch main
+Your branch is based on 'origin/main', but the upstream is gone.
+  (use "git branch --unset-upstream" to fixup)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   new.html
+
+PS C:\Users\Jenny\Desktop\testing-repo> git commit -m "fffsf"
+[main a64d51b] fffsf
+ 1 file changed, 60 insertions(+), 2 deletions(-)
+PS C:\Users\Jenny\Desktop\testing-repo> git remote -v     
+origin  https://github.com/GoldenDev1002/testing-repo.git (fetch)
+origin  https://github.com/GoldenDev1002/testing-repo.git (push)
+PS C:\Users\Jenny\Desktop\testing-repo> git push -u origin
+remote: Invalid username or password. */
 </script>
 </html>
